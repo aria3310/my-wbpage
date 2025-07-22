@@ -1,0 +1,231 @@
+header{
+
+background-image: url(./image/Hero_Web_desk_2024_69\ \(1\).webp);
+height: 582px;
+width: 1358px;
+}
+
+.custom-hover-box:hover{
+background-color: white;
+
+}
+
+nav{
+
+ position: sticky;
+
+
+}
+
+
+.custom-hover-box:hover ul li h6 a{
+
+  color: black !important;
+
+
+  display: block;
+
+  position: relative;
+
+}
+
+
+ul li h6 a:hover{
+  border: 2px solid #000 ;
+  border-radius: 5px;
+  display: block;
+
+}
+ 
+.custom-hover-box:hover h2{
+  color: black !important;
+
+
+
+}
+
+
+button{
+background-color: white;
+font-size: 18px;
+letter-spacing: 2px;
+text-transform: uppercase;
+display: inline-block;
+text-align: center;
+font-weight: bold;
+padding: 0.7em 2em;
+border: 3px solid #fff;
+border-radius: 8px;
+position: relative;
+box-shadow: 0 2px 10px rgb(0, 0, 0, 0.16) 3px 6px rgb(0, 0, 0, 0.1) ; 
+color: black;
+text-decoration: none;
+transition: 0.4s ease all;
+z-index: 1;
+}
+
+transition: 0.3s ease a;
+
+
+
+
+button:before{
+width: 100%;
+top: 0;
+left: 50%;
+right: 50%;
+bottom: 0;
+opacity: 0;
+content: ;
+background-color: white;
+z-index: -1;
+}
+
+button:hover, button:focus{
+  position: absolute;
+  color: white;
+  background: none;
+
+
+}
+button:hover:before, button:focus:before{
+transition: 0.5s all ease;
+left: 0%;
+right: 0%;
+opacity: ;
+
+}
+  
+
+button:active{
+
+
+}
+
+.circle-image{
+
+display: inline-block;
+position: relative;
+}
+
+.circle-image img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+background-color: pink;
+border: 2px solid transparent;
+transition: all 0s ease;
+border-radius: 50%;
+}
+
+
+.circle-image:hover img {
+background-color: transparent;
+border: 2px solid pink;
+}
+
+
+.ax{
+  padding: 10px;
+  float: right;
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+.btn{
+ padding-top: 100px;
+ 
+
+
+
+}
+
+
+
+
+.pang{
+  left: 0%;
+  float: left;
+  position: fixed;
+  width: 1400px;
+  height: 300px;
+  background-color: #fff;
+  visibility: hidden;
+  display: flex;
+}
+
+.menu-item:hover .pang{
+
+ visibility: visible;
+ 
+
+}
+
+
+
+
+  
+
+
+.pho{
+
+  float: left;
+  width: 2500px; height: 200px; display: flex;
+  margin: 40px; margin-left: 2px;
+  padding: 20px;
+  background-color: pink;
+
+
+
+}
+
+
+
+
+.tit{
+
+ margin-left: 2%;
+}
+
+
+
+
+::placeholder{
+
+  text-align: left;
+  padding-left: 2px;
+
+
+
+}
+
+.fot{
+
+  color: rgb(218, 218, 218);
+
+  display: block;
+
+  list-style: none;
+
+  text-align: right;
+  float: right;
+}
+
+.la:hover{
+
+
+  color: white;
+  cursor: pointer;
+  margin-left: 30px;
+
+}
+
+
+
+.la{
+
+
+  text-align: left;
+
+
+}
